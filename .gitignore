@@ -6,6 +6,7 @@
 .pnp.js
 /src/components/url.js
 /node_modules
+dist
 
 # testing
 /coverage

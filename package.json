@@ -52,7 +52,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d examples/",
+    "publish-demo": "npm run build && npm run deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -71,6 +73,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "react-csv-downloader": "^1.5.0"
   }
 }
